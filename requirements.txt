@@ -1,6 +1,7 @@
 Flask
-
 numpy
 gunicorn 
 tensorflow-cpu
 requests 
+
+
