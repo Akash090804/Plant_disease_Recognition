@@ -1,8 +1,11 @@
+import os
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
+os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
+
 from flask import Flask, render_template, request, redirect, send_from_directory
 import numpy as np
 import json
 import uuid
-import os
 import requests
 import tensorflow as tf
 
